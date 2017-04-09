@@ -23,10 +23,10 @@ body {
 
 /*Page Header*/
 .page-header {
-	border: 1px solid red;
+	border: 1px solid #292929;
 	background-color: #292929;
 	max-width: 100%;
-	padding-left: 0 1em 0 1em;
+	padding: 0em 1em 0em 0em;
 
 }
 
@@ -35,8 +35,7 @@ body {
 	font: url(/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf);
 	text-transform: uppercase;
 	font-size: 1.25em;
-	margin: .5em;
-	padding: 1em 0 0 1em;
+	padding: 1em 0em 0em .5em;
 	background: url('../img/menu-icon.jpg') no-repeat right;
 	height: 3em;
 }
@@ -46,8 +45,8 @@ body {
 
 
 .featured {
-	border: 1px solid blue;
 	background: url(../img/purple-bg.jpeg);
+	padding: 4em 0em 6em 0em;
 }
 
 .featured h2 {
@@ -60,14 +59,24 @@ body {
 }
 
 .featured h2 span{
-	display: list-item;list-style:none;}
+	display: list-item;list-style:none;
 }	
+
+.featured p {
+	text-align: center;
+	text-transform: uppercase;
+}
 
 .featured a:link {
 	font-size: 2em;
-	text-align: center;
-	text-transform: uppercase;
-	border: 1px solid white;
+	color: #fff;
+	border: 2px solid #fff;
+	padding: .75em;
+}
+
+.featured a:hover {
+	background-color: #fff;
+	color: #000000;
 }
 
 /*About Us*/
@@ -82,5 +91,5 @@ body {
 
 /*Page Footer*/
 .page-footer {
-	border: 1 px solid orange;
+	border: 1px solid orange;
 }
