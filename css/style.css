@@ -1,0 +1,42 @@
+@charset "UFT-8";
+
+/* Assignment 11: Random Design Co. */
+
+/*Globals*/
+
+html {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  line-height: 1.4em;
+  max-width: 51.125em;
+  border: 0.625em solid #000000;
+  margin: 5em auto;
+  padding: 0.625em;
+}
+
+.page-header {
+	border: 1px solid red;
+}
+
+.featured {
+	border: 1px solid blue;
+}
+
+.about-us {
+	border: 1px solid yellow;
+}
+
+.latest-work {
+	border: 1px solid green;
+}
+
+.page-footer {
+	border: 1 px solid orange;
+}
