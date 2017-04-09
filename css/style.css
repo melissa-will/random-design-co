@@ -16,27 +16,71 @@ html {
 body {
   line-height: 1.4em;
   max-width: 51.125em;
-  border: 0.625em solid #000000;
   margin: 5em auto;
   padding: 0.625em;
+  font: url(/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf);
 }
 
+/*Page Header*/
 .page-header {
 	border: 1px solid red;
+	background-color: #292929;
+	max-width: 100%;
+	padding-left: 0 1em 0 1em;
+
 }
+
+.page-header h1 {
+	color: #fff;
+	font: url(/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf);
+	text-transform: uppercase;
+	font-size: 1.25em;
+	margin: .5em;
+	padding: 1em 0 0 1em;
+	background: url('../img/menu-icon.jpg') no-repeat right;
+	height: 3em;
+}
+
+/*Menu*/
+
+
 
 .featured {
 	border: 1px solid blue;
+	background: url(../img/purple-bg.jpeg);
 }
 
+.featured h2 {
+	font-size: 3em;
+	line-height: 1em;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	padding: .5em;
+}
+
+.featured h2 span{
+	display: list-item;list-style:none;}
+}	
+
+.featured a:link {
+	font-size: 2em;
+	text-align: center;
+	text-transform: uppercase;
+	border: 1px solid white;
+}
+
+/*About Us*/
 .about-us {
 	border: 1px solid yellow;
 }
 
+/*Latest Work*/
 .latest-work {
 	border: 1px solid green;
 }
 
+/*Page Footer*/
 .page-footer {
 	border: 1 px solid orange;
 }
