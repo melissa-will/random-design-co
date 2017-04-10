@@ -101,31 +101,42 @@ img {
 	padding: .5em .25em;
 	line-height: 1.5em;
 	font-size: 1.25em;
-	border-bottom: 1px solid #E5E5E5;
 }
 
 .project {
-	border: 1px solid red;
 	width: 50%;
 	float: left;
 	position: relative;
-	top: 0;
-	right: 0;
 	overflow: hidden;
+	background: hsla(0, 100%, 100%, 0.5);
 }
 
-.project h4 {
+.title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	text-align: center;
-	background-color: hsla(0, 100%, 100%, 0.5);
 }
 
+.image {
+	max-width: 100%;
+	display: block;
+	position: relative;
+	z-index: -10;
+}
+
+.image a:hover {
+	background: hsla(0, 0, 0, 0);
+	color: #fff;
+}
 .latest-work {
 	overflow: auto;
+	border-bottom: 1px solid #E5E5E5;
 }
 
 /*Page Footer*/
 .page-footer {
-	border: 1px solid orange;
 	text-align: center;
 	border-bottom: 1px solid #E5E5E5;
 }
