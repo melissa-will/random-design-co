@@ -27,7 +27,6 @@ body {
 	background-color: #292929;
 	max-width: 100%;
 	padding: 0em 1em 0em 0em;
-
 }
 
 .page-header h1 {
@@ -42,11 +41,12 @@ body {
 
 /*Menu*/
 
-
+/*Featured*/
 
 .featured {
 	background: url(../img/purple-bg.jpeg);
 	padding: 4em 0em 6em 0em;
+	border-bottom: 1px solid #E5E5E5;
 }
 
 .featured h2 {
@@ -81,14 +81,28 @@ body {
 
 /*About Us*/
 .about-us {
-	border: 1px solid yellow;
+	margin: 1em .5em;
+	padding: .5em .25em;
+	line-height: 1.5em;
+	font-size: 1.25em;
+	border-bottom: 1px solid #E5E5E5;
+
 }
 
 /*Latest Work*/
 .latest-work {
-	border: 1px solid green;
+	margin: 1em .5em;
+	padding: .5em .25em;
+	line-height: 1.5em;
+	font-size: 1.25em;
+	border-bottom: 1px solid #E5E5E5;
 }
 
+.project {
+	width: 50%;
+	height: 6em;
+	float: left;
+}
 /*Page Footer*/
 .page-footer {
 	border: 1px solid orange;
