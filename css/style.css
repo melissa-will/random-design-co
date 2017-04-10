@@ -26,7 +26,7 @@ img {
 .page-header {
 	border: 1px solid #292929;
 	background-color: #292929;
-	max-width: 100%;
+
 	padding: 0em 1em 0em 0em;
 	position: fixed;
 	top: 0;
@@ -92,7 +92,6 @@ img {
 	line-height: 1.5em;
 	font-size: 1.25em;
 	border-bottom: 1px solid #E5E5E5;
-
 }
 
 /*Latest Work*/
@@ -126,10 +125,6 @@ img {
 	z-index: -10;
 }
 
-.image a:hover {
-	background: hsla(0, 0, 0, 0);
-	color: #fff;
-}
 .latest-work {
 	overflow: auto;
 	border-bottom: 1px solid #E5E5E5;
