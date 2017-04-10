@@ -9,9 +9,9 @@ html {
   margin: 0 auto;
 }
 
-*, *:before, *:after {
+/*, *:before, *:after {
   box-sizing: inherit;
-}
+}*/
 
 body {
   line-height: 1.4em;
@@ -27,6 +27,10 @@ body {
 	background-color: #292929;
 	max-width: 100%;
 	padding: 0em 1em 0em 0em;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
 }
 
 .page-header h1 {
@@ -96,14 +100,25 @@ body {
 	line-height: 1.5em;
 	font-size: 1.25em;
 	border-bottom: 1px solid #E5E5E5;
+	position: relative;
 }
 
 .project {
+	border: 1px solid red;
 	width: 50%;
 	height: 6em;
 	float: left;
+	position: absolute;
+	top: 0;
+	right: 0;
+
+}
+
+.latest-projects {
+	overflow: auto;
 }
 /*Page Footer*/
 .page-footer {
 	border: 1px solid orange;
+	text-align: center;
 }
