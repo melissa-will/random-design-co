@@ -138,10 +138,14 @@ img {
     right: 1em;
 }
 
+.featured, .about-us, .latest-work {
+    padding: 1em;
+    border-bottom: 1px, solid, #ddd;
+}
 
-
-
-
+.featured {
+    
+}
 
 
 
