@@ -14,7 +14,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
-  
+ } 
 
 /*
  * Remove text-shadow in selection highlight:
@@ -103,11 +103,40 @@ html {
 
 *, *:before, *:after {
   box-sizing: border-box;
-}}
+}
 
+body {
+    padding-top: 3em;
+}
 
+h1, h2, h3, h4 {
+    font-size: 1em;
+    text-transform: uppercase;
+}
 
+img {
+    max-width: 100%;
+}
 
+.page-header {
+    background: #000000;
+    color: white;
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+
+.page-header h1 {
+    margin: 0;
+}    
+
+.page-header .main-nav {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
 
 
 
